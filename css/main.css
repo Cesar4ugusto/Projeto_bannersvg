@@ -32,6 +32,7 @@ body{
     top: 60%;
     width: 119px;
     height: 238px;
+    animation: sobedesce 8s infinite;
 }
 
 #right{
@@ -41,6 +42,15 @@ body{
     z-index: 1;
     width: 153.835px;
     height: 391.443px;
+}
+
+@keyframes sobedesce {
+    0%, 100%{
+        top: 60%;
+    }
+    50%{
+        top: 35%;
+    }
 }
 
 nav{
